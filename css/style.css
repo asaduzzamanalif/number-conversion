@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Architects Daughter', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.form-box {
+	width: 100%;
+}
+
+.author {
+	width: 60%;
+	margin: 10px auto;
+	font-size: 22px;
+	color: limegreen;
+	background: #000;
+	border-radius: 10px;
+}
+
+#author {
+	color: orangered;
+	font-size: 22px;
+}
+
+form {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    background-image: linear-gradient(to left bottom, #f68900, #fa7215, #fc5a25, #fb3c33, #f70541);
+	padding: 10px 0;
+	border-radius: 20px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+}
+
+input {
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(-75deg, #1c3dc3, #a91baa, #e60081, #ff4456, #ff7e2e, #fb961d, #f2ad0f, #e6c313, #e6c313, #e6c313, #e6c313, #e6c313);
+    color: #070707;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.flootingPoint {
+	overflow: hidden;
+}
+
+.box:nth-child(1) {
+	width: 31%;
+	background-image: linear-gradient(to right bottom, #e739ca, #f74db6, #ff65a7, #ff7e9f, #fe959e, #fba593, #f2b591, #e7c499, #d0d3a0, #b6e0b7, #a0e9d7, #9beef9);
+	float: left;
+}
+.box:nth-child(2) {
+	width: 32%;
+	background-image: linear-gradient(to right bottom, #ee51f0, #ca4de4, #a748d7, #8442c8, #613cb7, #4c4ec2, #315eca, #006bcf, #0092e6, #00b3e4, #00d1d1, #4beab9);
+	float: left;
+}
+.box:nth-child(3) {
+	width: 31%;
+	background-image: linear-gradient(to left top, #f8b173, #ffa77c, #ff9f89, #ff9897, #ff93a6, #f795b9, #e999ca, #d89ed8, #bea8e3, #a7b1e5, #97b8e0, #92bcd6);
+	float: left;
+}
+
+.box {
+	margin: 0 1%;
+	border-radius: 20px;
+}
+
+span {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+
+.bold {
+	font-size: 28px;
+	color: #fff;
+}
